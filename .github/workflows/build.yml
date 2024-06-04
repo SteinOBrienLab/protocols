@@ -39,6 +39,7 @@ jobs:
           rm README.md LICENSE
           rm -rf actions/sciblog/src/posts/*
           rsync -av --progress --exclude="actions" . actions/sciblog/src/posts/
+          rsync -av --progress --exclude="actions" static/* actions/sciblog/static/
 
       - name: Detect package manager
         id: detect-package-manager
@@ -50,7 +51,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: "npm"
           cache-dependency-path: "actions/sciblog/package-lock.json"
 
@@ -60,6 +61,7 @@ jobs:
           cd actions/sciblog
           npm ci
           npm run build -- --base=/protocols/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
