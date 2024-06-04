@@ -7,7 +7,7 @@ Author: Chaichontat Sriworarat
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet">
+<link href="/styles.css" rel="stylesheet">
 
 Modified from [@martinOptimizedSinglenucleus2023].
 All modifications/improvements are derivative of this base protocol.
@@ -15,6 +15,7 @@ All modifications/improvements are derivative of this base protocol.
 To print with the sidebar, resize your browser window to be narrow until the sidebar merges with the main text.
 
 ## Table of Contents
+
 - [Table of Contents](#table-of-contents)
 - [Protocol](#protocol)
   - [Nuclei isolation](#nuclei-isolation)
@@ -33,11 +34,12 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 
 <span class="timing">Timing: 2 h</span>
 Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
- - An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer.
- - An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml.
- - Adult mouse kidneys need 5 ml per kidney.
- - Adult mouse liver needs 20 ml.
- - Adult mouse pancreas needs 15 ml.
+
+- An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer.
+- An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml.
+- Adult mouse kidneys need 5 ml per kidney.
+- Adult mouse liver needs 20 ml.
+- Adult mouse pancreas needs 15 ml.
 
 </aside>
 
@@ -53,9 +55,10 @@ Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
    - Pieces of aluminum foil folded four times for each sample.
 
 <span class="caution">CAUTION:</span> DEPC is flammable and toxic. Avoid breathing vapors. The following steps should be performed in the chemical hood from this point until the DEPC is washed from the sample. Or at the very least, add 100% DEPC in the fume hood.
-   - Determine the amount of lysis buffer that you need, for every 1 ml of lysis buffer needed,
-     - add 2.5 μl of 10% (vol/vol) IGEPAL
-     - add 10 μl of DEPC to the hypotonic lysis buffer solution (and 40 μl of BSA if using lysis buffer B) and then vortex the solution.
+
+- Determine the amount of lysis buffer that you need, for every 1 ml of lysis buffer needed,
+  - add 2.5 μl of 10% (vol/vol) IGEPAL
+  - add 10 μl of DEPC to the hypotonic lysis buffer solution (and 40 μl of BSA if using lysis buffer B) and then vortex the solution.
 
 1. Place the folded aluminum foil between the slab and hammer to chill.
 
@@ -74,7 +77,6 @@ Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
 8. _Typically not necessary, DEPC kills everything_. Take a 45-μl sample of the filtered lysate and check for RNase activity with the IDT RNaseAlert kit. The RNaseAlert test will guide you on whether to proceed or not. There should not be any RNase detected, and if there is, you will have to restart with a new sample and adjust either the sample size or the volume of lysis buffer
 
 10. Spin down the remainder of the lysate (1,000 g, 3 min, 4°C).  Keep the nuclei in the 50-ml tube.  Resuspend the nuclei in 1 ml of 0.3 M SPBSTM. (or more buffer if there are a lot of nuclei—roughly 1 ml of buffer per 200-500 mg of starting material at minimum).
-
 
 ## Nuclei/cell Fixation
 
@@ -95,14 +97,13 @@ Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
 6. Carefully remove the supernatant and dispose properly. The nuclei pellet is at the bottom and should look a little white-ish from the DSP.
 
 7. Resuspend the nuclei in ≥1 ml of 0.3 M SPBSTM **_(or PBS-T if using cells)_**. Triturate gently with a pipette tip to separate nuclei.
- 
+
 8. Divide fixed nuclei into aliquots of ~2 million nuclei (Fig. 5) in microcentrifuge tubes. Spin at **1,000 g** for 3 min at 4°C and remove and discard the supernatant.
 
 9. (**Optional**) If continuing with the protocol the same day and there are obvious clumps at this point that will not tease apart, you will need to sonicate them to break them up. Sonicate (Diagenode Bioruptor Plus) on low intensity for 12 s only at 4°C. Spin and resuspend the nuclei in 500 μl of 0.3M SPBSTM (or PBS-T) as in Step 21.
 
-  - In our case, we first try the table top sonicator. Swirl the 1.5 ml tube around the bath for 10 s. Non-resistant clumps should break at this point.
-  - If things are still clumpy, we use a Branson 250 W sonicator with a 3 mm tip with 40% duty cycle at the lowest power setting (around 2) for 3-4 cycles in a 1.5 ml tube with at least 750 μl of SPBSTM. Keep the tip at least 5 mm in the solution to avoid foaming. Do not let the tip get in contact with the tube. Put on ice right away. This should obliterate everything. We have verified that the DAPI signal remains unchanged after the sonication.
-
+- In our case, we first try the table top sonicator. Swirl the 1.5 ml tube around the bath for 10 s. Non-resistant clumps should break at this point.
+- If things are still clumpy, we use a Branson 250 W sonicator with a 3 mm tip with 40% duty cycle at the lowest power setting (around 2) for 3-4 cycles in a 1.5 ml tube with at least 750 μl of SPBSTM. Keep the tip at least 5 mm in the solution to avoid foaming. Do not let the tip get in contact with the tube. Put on ice right away. This should obliterate everything. We have verified that the DAPI signal remains unchanged after the sonication.
 
 ## Tiny-Sci
 
@@ -136,8 +137,8 @@ An optional approach
 transcription.
 
 ## References
-- Enzymatic dissociation based in part on:
-  + Bresciani, E., Broadbridge, E. & Liu, P. P. An efficient dissociation protocol for generation of single cell suspension from zebrafish embryos and larvae. MethodsX 5, 1287–1290 (2018). [doi:10.1016/j.mex.2018.10.009](https://doi.org/10.1016/j.mex.2018.10.009)
-  
-[^ref]
 
+- Enzymatic dissociation based in part on:
+  - Bresciani, E., Broadbridge, E. & Liu, P. P. An efficient dissociation protocol for generation of single cell suspension from zebrafish embryos and larvae. MethodsX 5, 1287–1290 (2018). [doi:10.1016/j.mex.2018.10.009](https://doi.org/10.1016/j.mex.2018.10.009)
+
+[^ref]
