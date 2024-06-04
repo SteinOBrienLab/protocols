@@ -8,7 +8,7 @@ Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet"></link>
+<link href="styles.css" rel="stylesheet">
 
 All methods derived originally from Albertin Lab D. pealeii HCR protocol (unpublished).
 

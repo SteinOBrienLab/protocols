@@ -7,7 +7,7 @@ Author: Chaichontat Sriworarat
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet"></link>
+<link href="styles.css" rel="stylesheet">
 
 Modified from [@martinOptimizedSinglenucleus2023].
 All modifications/improvements are derivative of this base protocol.
@@ -15,8 +15,11 @@ All modifications/improvements are derivative of this base protocol.
 To print with the sidebar, resize your browser window to be narrow until the sidebar merges with the main text.
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Protocol](#protocol)
+  - [Nuclei isolation](#nuclei-isolation)
+- [Nuclei/cell Fixation](#nucleicell-fixation)
 - [Tiny-Sci](#tiny-sci)
-- [Nuclei/Cell Fixation](#nucleicell-fixation)
 - [References](#references)
 
 ## Protocol

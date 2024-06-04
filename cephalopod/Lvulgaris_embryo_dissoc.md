@@ -6,7 +6,7 @@ Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet"></link>
+<link href="styles.css" rel="stylesheet">
 
 Methods derived from Duruz et al. 2023.
 [@DuruzLoligoSingleCell2023]
