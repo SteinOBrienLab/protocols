@@ -1,0 +1,38 @@
+.critical{
+    font-weight: bold;
+    color: #702963;
+}
+
+.caution{
+    font-weight: bold;
+    color: #bb2222;
+}
+
+.pause{
+    font-weight: bold;
+    color: #228B22;
+}
+
+.timing{
+    font-weight: bold;
+    color: #6495ED;
+}
+
+.tip{
+    font-weight: bold;
+    color: #9da20f;
+}
+
+.todo{
+    font-weight: bold;
+    color:deeppink
+}
+
+.sequence{
+    font-family: monospace;
+}
+
+.buffer{
+    font-size: 1.1em;
+    font-weight: bold;
+}
