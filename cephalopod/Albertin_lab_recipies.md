@@ -6,7 +6,7 @@ Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet">
+<link href="/styles.css" rel="stylesheet">
 
 ## General Lab
 

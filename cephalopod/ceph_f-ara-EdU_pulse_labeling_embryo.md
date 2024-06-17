@@ -6,7 +6,7 @@ Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet">
+<link href="/styles.css" rel="stylesheet">
 <span class="note">Updated:</span> Jun 16, 2024
 
 ## Table of Contents
