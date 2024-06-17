@@ -2,9 +2,7 @@
 title: Doryteuthis pealeii Embryo Whole Mount Hybridization Chain Reaction (HCR)
 subtitle: Derived from Albertin Lab protocol.  Graciously provided by Dr. Jess Stock
 date: Jun 3, 2024
-Author: Jess Stock
 Author: Caroline Albertin
-Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
@@ -128,7 +126,7 @@ All methods derived originally from Albertin Lab D. pealeii HCR protocol (unpubl
 3. Incubate overnight at 25ºC.
 
 ### Day 3
-1. Remove hairpins and store ina labeled tube at -20ºC (hairpins can be reused)
+1. Remove hairpins and store in a labeled tube at -20ºC (hairpins can be reused)
 2. Wash embryos in 600µL 5x SSCT on rocker at room temp.
     - 2x 5 min
     - 2x 15 min

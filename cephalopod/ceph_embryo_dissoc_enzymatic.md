@@ -1,6 +1,6 @@
 ---
-title: Doryteuthis pealeii Embryo Dissociation
-subtitle: Gentle enzymatic dissociation and fixation of Doryteuthis pealeii embryos for input to sci-RNA-seq
+title: Cephalopod Embryo Dissociation - Enzymatic
+subtitle: Gentle enzymatic dissociation and fixation of cephalopod embryos 
 date: Jun 3, 2024
 Author: Loyal A. Goff
 bibliography: [references.bib]
@@ -24,6 +24,7 @@ bibliography: [references.bib]
   - [Speciment Prep](#speciment-prep)
   - [Enzymatic Dissociation](#enzymatic-dissociation)
   - [Preparation of single cell suspension](#preparation-of-single-cell-suspension)
+- [Alternative mechanical dissociation](#alternative-mechanical-dissociation)
 
 ## Setup
 
@@ -145,3 +146,24 @@ Transfer the single cell suspension into a new tube and proceed with downstream 
 •
 Optional Step: If a smaller volume is required cells can be centrifuge 5 min at 700 g at RT and resuspended in DMEM-10%FBS or a solution that downstream applications require.
 CRITICAL: Keep the cell suspension at room temperature and do not store on ice.
+
+## Alternative mechanical dissociation
+- Use Ca2+ and Mg2+ free ASW to wash embryos (+ BSA)
+- Gentle but thorough
+- Can try TryplE
+  - Sometimes they explode
+  - May need salt supplement
+    - 1:10 dilution of 5M NaCl
+  - May or may not need to quench
+- Can try papain
+- 18ºC is ideal (no higher than 20ºC)
+
+1. Input should be ~30-40 embryos at ~Stage 23
+2. 
+
+After dounce
+
+1. Wash through 70 μm nylon mesh
+2. Wash through 40 μm nylon mesh
+3. 
+
