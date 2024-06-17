@@ -6,9 +6,10 @@ Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
-<link href="styles.css" rel="stylesheet">
+<link href="/styles.css" rel="stylesheet">
 
 ## Table of Contents
+
 - [Table of Contents](#table-of-contents)
 - [Setup](#setup)
   - [Reagents](#reagents)
@@ -29,7 +30,8 @@ bibliography: [references.bib]
 ## Setup
 
 ### Reagents
-- Collagenase from Clostridium histolyticum (Sigma #C9891)- 
+
+- Collagenase from Clostridium histolyticum (Sigma #C9891)-
 - PBS 1X without Calcium and Magnesium (e.g. Corning #21-040-CV)
   - <span class="todo">TODO:</span> Replace with ASW or equivalent?
 - DMEM 1X with 4.5 g/L glucose, L-glutamine & sodium pyruvate (Corning 10-013-CV)
@@ -41,6 +43,7 @@ bibliography: [references.bib]
   - <span class="todo">TODO:</span>This is likely EtOH instead for cephs.
 
 ### Materials
+
 - Heat block set at 30 °C
 - 1.5 ml Microcentrifuge tubes (clear)
 - P1000 and P200 pipette tips
@@ -52,17 +55,17 @@ bibliography: [references.bib]
 
 #### Artificial seawater (ASW) - CSHL Protocols
 
-|Reagent	| Quantity (for 1 L)	| Final concentration
+|Reagent | Quantity (for 1 L) | Final concentration
 |------------|---------------------|---------------------|
-|NaCl	| 26.29 g	| 450 mM
-|KCl	| 0.74 g	| 10 mM
-|CaCl<sub>2</sub>	| 0.99 g	| 9 mM
-|MgCl<sub>2</sub>·6H2O	| 6.09 g	| 30 mM
-|MgSO<sub>4</sub>·7H2O	| 3.94 g	| 16 mM
+|NaCl | 26.29 g | 450 mM
+|KCl | 0.74 g | 10 mM
+|CaCl<sub>2</sub> | 0.99 g | 9 mM
+|MgCl<sub>2</sub>·6H2O | 6.09 g | 30 mM
+|MgSO<sub>4</sub>·7H2O | 3.94 g | 16 mM
 | DI Water to 1L    |
 
-  + pH 7.4
-  + Filter sterilize and store at 4°C
+- pH 7.4
+- Filter sterilize and store at 4°C
 
 #### ASW from dry salts
 
@@ -81,11 +84,13 @@ bibliography: [references.bib]
 | DI Water   | -                   | 988.968   | -                  | -                         |
 | **Total**  | -                   | 1025      | -                  | -                         |
 
-  + pH 7.4
-  + Filter sterilize and store at 4°C
+- pH 7.4
+- Filter sterilize and store at 4°C
 
 #### Dissociation Mix
+
 ##### (for embryos 2–4 dpf)
+
 | Ingredient | Amount (µl)|
 |------------|-------|
 |0.25% trypsin-EDTA| 480 μl |
@@ -94,35 +99,38 @@ bibliography: [references.bib]
 OR
 
 ##### (for embryos 5–16 dpf)
+
 | Ingredient | Amount (µl)|
 |------------|-------|
 |0.25% trypsin-EDTA| 460 μl |
 | Collagenase 100 mg/ml | 40 μl |
 
 ### Reagent Prep
+
 - Resuspend the collagenase in PBS 1X (ASW?) to prepare a 100 mg/ml stock. Aliquot (40 μl each), store at −20 °C. Use a fresh aliquot for each experiment.
 - Prepare DMEM-10%FBS (make fresh every time) and equilibrate at ∼30 °C. #TODO: What is ceph equivalent of DMEM-10%FBS?
 - Prepare the [Dissociation Mix](#dissociation-mix) and keep at 30 °C. Each tube requires 500 μl of Dissociation Mix.
 
-
 ## Protocol
 
 ### Speciment Prep
-1. Collect embryos or larvae at the desired stage. 
-1. Euthanize embryos? and quickly proceed to the next step. 
+
+1. Collect embryos or larvae at the desired stage.
+1. Euthanize embryos? and quickly proceed to the next step.
 1. <span class="critical">CRITICAL:</span> Do not freeze samples unless you are making nuclei. Freezing will destroy the cell membrane and make viable dissociation impossible.
-1. Transfer embryos or larvae into 1.5 ml microcentrifuge tube   
+1. Transfer embryos or larvae into 1.5 ml microcentrifuge tube
     - ∼ 30 embryos/tube for 2–4 dpf (Adjust accordingly for ceph)
     - ∼ 20 embryos/tube 4–10 dpf
     - ∼ 5 embryos/tube 10–16 dpf
 1. Wash 2X in 1 ml [ASW](#artificial-seawater-asw---cshl-protocols) 1X
 
 ### Enzymatic Dissociation
+
 Dissociation with trypsin and collagenase
 
 1. Remove ASW
 1. Add 500 μl of [Dissociation Mix](#dissociation-mix) (pre-heated at 30 °C) to each 1.5 ml microcentrifuge tube
-1. Mechanically dissociate the embryos via harsh pipetting (use a P1000 and then P200). 
+1. Mechanically dissociate the embryos via harsh pipetting (use a P1000 and then P200).
     - Interval ∼30 s pipetting and ∼30 s in heat-block at 30 °C until tissue is no longer visible (5–10 min).
     - <span class="tip">NOTE:</span> once fully homogenized, the mixture will appear lighter in color.
 1. Add 800 μl of DMEM-10%FBS to stop the dissociation.
