@@ -1,6 +1,5 @@
 ---
 title: Cephalopod Embryo Dissociation - Optimized protocol
-
 subtitle: Gentle dissociation and fixation of cephalopod embryos for sci-RNA-seq3 input
 date: Jun 7, 2024
 Author: Caroline Albertin
