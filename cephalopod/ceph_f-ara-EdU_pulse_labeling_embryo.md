@@ -9,11 +9,15 @@ bibliography: [references.bib]
 <link href="/styles.css" rel="stylesheet">
 <span class="note">Updated:</span> Jun 16, 2024
 
+Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermofisher.com/order/catalog/product/C10340); [Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fmp10338.pdf))
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Setup](#setup)
   - [Prepare Stock Solutions](#prepare-stock-solutions)
-    - [f-ara-EdU (10mM stock in DMSO)](#f-ara-edu-10mm-stock-in-dmso)
+    - [PBS-T (1%)](#pbs-t-1)
+    - [f-ara-EdU (20mM stock in DMSO)](#f-ara-edu-20mm-stock-in-dmso)
+    - [Alexa Fluor 647 azide (Component B)](#alexa-fluor-647-azide-component-b)
     - [Click-iT reaction buffer (Component D)](#click-it-reaction-buffer-component-d)
     - [Click-iT buffer additive (Component F)](#click-it-buffer-additive-component-f)
   - [Materials](#materials)
@@ -21,17 +25,31 @@ bibliography: [references.bib]
 - [Protocol](#protocol)
   - [f-ara-EdU Pulse Labeling](#f-ara-edu-pulse-labeling)
   - [Fixation](#fixation)
-  - [Click-iT Plus f-ara-EdU Fluorescent Labeling and Detection](#click-it-plus-f-ara-edu-fluorescent-labeling-and-detection)
+  - [Click-iT f-ara-EdU Fluorescent Labeling and Detection](#click-it-f-ara-edu-fluorescent-labeling-and-detection)
+  - [Staining DNA](#staining-dna)
+  - [Mounting and Imaging](#mounting-and-imaging)
+- [Notes/Ideas for Future Tweaking:](#notesideas-for-future-tweaking)
 
 ## Setup
 
 ### Prepare Stock Solutions
-#### f-ara-EdU (10mM stock in DMSO)
+
+#### PBS-T (1%)
+|Reagent	| Quantity (for 500 mL)	| Final concentration
+|------------|---------------------|---------------------|
+|PBS 1X | 495mL | - |
+|Tween-20 | 5mL | 1% |
+
+#### f-ara-EdU (20mM stock in DMSO)
 - F-ara-EdU (2′S)-2′-Deoxy-2′-fluoro-5-ethynyluridine, (Sigma #T511293)
-  - Add 2 ml of DMSO or PBS to vial containing 5 mg f-ara-EdU to make a 10 mM stock solution. 
+  - Add 1 ml of DMSO or PBS to vial containing 5 mg f-ara-EdU to make a 20 mM stock solution. 
   - After being dissolved, remaining f-ara-EdU stock solution is stable for up to 1 year when stored at −20 °C. 
   - f-ara-EdU solution should be portioned into single use aliquots to avoid freeze thawing. 
   - <span class='caution'>CAUTION:</span> EdU is incorporated into DNA and is a potential mutagen. Proper protective clothing should be used when handling EdU. Waste, including stock solutions, used media and water containing f-ara-EdU should be considered as hazardous.
+
+#### Alexa Fluor 647 azide (Component B)
+1. Prepare a working solution of the Alexa Fluor® azide (Component B): Add 70 µL of DMSO (Component C) to Component B, then mix well.
+  - After use, store any remaining working solution at ≤–20°C. When stored as directed, this working solution is stable for up to 1 year.
 
 #### Click-iT reaction buffer (Component D)
 - Prepare a working solution of 1X Click-iT® EdU reaction buffer (Component D):
@@ -49,17 +67,17 @@ bibliography: [references.bib]
 - 1.5 ml Microcentrifuge tubes (clear)
 - Rocker
 - Staining vials
-- Click-iT Plus EdU Alexa Fluor 647 Imaging Kit (ThermoFisher #C10640)
+- Click-iT EdU Alexa Fluor 647 Imaging Kit (ThermoFisher #C10340)
 
 
 ### Buffers
 
 ## Protocol
 ### f-ara-EdU Pulse Labeling
-1. Collect embryos or larvae at the desired stage.
+1. Collect embryos at the desired stage.
 2. Dechorionate embryos in Filtered Natural Sea Water or ASW.
-3. Transfer embryos or larvae into 1.5 ml microcentrifuge tube or multi-well plate (e.g. 24-well plate). 
-   - If using a plate, you may need to pre-coat with 0.2% agarose to prevent embryos from sticking and allowing for chorion expansion.
+3. Transfer embryos or larvae into 1.5 ml microcentrifuge tube or multi-well plate (e.g. 24-well plate) depending on desired pulse length. 
+   - If using a plate, you should pre-coat with 0.2% agarose to prevent embryos from sticking and allowing for chorion expansion.
 4. To optimize labeling efficiency and minimize toxicity, you can set up a test matrix of different concentrations and durations of f-ara-EdU labeling.
    - Include cultures treated with vehicle alone for controls.
 
@@ -69,31 +87,56 @@ bibliography: [references.bib]
 |10µM| | | | |
 |100µM| | | | |
 
-1. Add appropriate volume of f-ara-EdU DMSO stock solution (10mM stock) to achieve desired final concentration.
-   - For example, to achieve a final concentration of 10µM in 1ml of ASW, add 1µl of 10mM f-ara-EdU stock solution.
-2. Incubate embryos in f-ara-EdU solution at 18°C in the dark.
+5. Add appropriate volume of f-ara-EdU DMSO stock solution (20mM stock) to achieve desired final concentration.
+   - For example, to achieve a final concentration of 10µM, add 1µl of 20mM f-ara-EdU stock solution to 2ml of ASW.
+6. Incubate embryos in f-ara-EdU solution at 18°C in the dark for desired time interval.
+7. Proceed immediately to Fixation and permeabilization (below).
 
 ### Fixation
 1. Fix embryos for 1h-overnight in 4% PFA in sea water at 4°C in glass vial.
-  - Can be left for up to 4 days?
-2. Wash embryos in PBS-T
-  - 2x 5 min
-  - 3x 30 min
-3. Remove PBS-T and add High-SDS HYB (~5x volume of embryos).
-4. Wait for embryos to settle to the bottom of the vial.
-5. <span class="pause">PAUSE POINT:</span> Store at -20ºC
+    - Alternatively, can fix in ~500µl 4% PFA in a 1.5ml microcentrifuge tube. Lay tube on side so as not to compress embryos in the tube.
+    - Or better yet, use round-bottom 2mL tubes.
+    - Can be left for up to 4 days?
+2. After fixation, wash embryos in 500µl PBS-T (1%) on rocker.
+  - 1x 5 min
+  - 2x 10 min
+3. Proceed to next step.
+   
+<span class="pause">PAUSE POINT:</span> Store at 4ºC
 
-### Click-iT Plus f-ara-EdU Fluorescent Labeling and Detection
+### Click-iT f-ara-EdU Fluorescent Labeling and Detection
 1. Allow Click-iT kit components to come to room temperature before opening.
-2. Prepare a working solution of fluorescent azide for EdU detection by adding 130 μl of DMSO to Component B of the kit (Alexa Fluor 488, Alexa Fluor 647, or Pacific Blue) and mix well. 
-  - Any remaining working solution will be stable for a year if stored at ≤−20 °C.
-3. Add 2 ml of deionized water to the vial containing the Click-iT EdU buffer additive (Component G) to make a 10× stock solution and gently mix until fully dissolved. 
-  - Any remaining stock solution should be dispensed into single use aliquots and is stable for a year when stored at ≤−20 °C.
-4. Prepare a master mix of the components required for the Click-it reaction. For each tube mix together 438 μl PBS or TBS, 10 μl CuSO4 (Component F), 2.5 μl fluorescent azide (prepared in Subheading 3.5, step 1), 50 μl 10× reaction buffer additive (prepared in Subheading 3.5, step 2). Scale up the mixture for the number of samples to be treated and add 500 μl to each tube. It is important to use the cocktail within 15 min of preparation. It is good practice to include a control sample of cells not exposed to EdU. In addition, these cells are needed for single staining compensation controls for intracellular antigens or antigens stained with RPE, PE-tandem, or Qdot antibody conjugates.
-5. Incubate the mixture for 30 min at room temperature in the dark.
-6. Add 3 ml of the Click-iT permeabilization and wash buffer.
-7. Decant the supernatant.
+2. Prepare ***1X Click-iT® EdU buffer additive*** (see Table 3) by diluting the 10X stock solution 1:10 in deionized water. Prepare this solution fresh and use the solution on the
+same day.
+3. Prepare Click-iT® reaction cocktail according to Table. It is important to add the ingredients in the order listed in the table; otherwise, the reaction will not proceed optimally. Use the Click-iT® reaction cocktail within 15 minutes of preparation. 
+ - For each tube mix together: 
+   - ***430 μl of 1x Click-iT reaction buffer***
+   - ***20 μl CuSO4***   (Component E) 
+   - ***1.2 μl fluorescent azide*** (Component B)
+   - ***50 μl 1x reaction buffer additive*** (Component F; diluted above from 10x stock). 
+ - Scale up the mixture for the number of samples to be treated and add 500 μl to each tube. 
+ - It is important to use the cocktail within 15 min of preparation. 
+ - It is good practice to include a control sample of cells not exposed to EdU. In addition, these cells are needed for single staining compensation controls for intracellular antigens or antigens stained with RPE, PE-tandem, or Qdot antibody conjugates.
+ - ![alt text](clickit_table.png)
+4. Remove the permeabilization buffer and wash the cells in each sample *twice* with 1 mL of PBS. Remove the wash solution.
+5. Add 0.5 mL of Click-iT reaction cocktail to each tube. place on rocker
+6. Incubate for 30 minutes at room temperature, protected from light.
+7. Remove the reaction cocktail and wash twice with 1 mL of PBS. Remove the wash solution. 
 
+### Staining DNA
+1. Add 1µl of 1000X DAPI (**TODO: Need concentration**) to each tube. 
+2. Stain for 10-30 min at RT on rocker.
+3. Remove DAPI and wash once with 1 mL of PBS. 
+
+### Mounting and Imaging
+
+## Notes/Ideas for Future Tweaking:
+- Very high background initially from yolk. A few suggestions for optimizing:
+  - Blocking prior to Click reaction with 3-4% BSA in PBS?
+  - Can we reduce the amount of fluorescent dye?
+  - Longer washes after Click (trying ON soak in PBS currently)
+  - Wash in high DMSO (<=50% w/v) to remove unbound dye?
+  - 5% Urea wash to disrupt hydrophobic interactions with yolk?
 
 
 
