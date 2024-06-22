@@ -126,7 +126,7 @@ Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermof
  - Scale up the mixture for the number of samples to be treated and add 500 μl to each tube. 
  - It is important to use the cocktail within 15 min of preparation. 
  - It is good practice to include a control sample of cells not exposed to EdU. In addition, these cells are needed for single staining compensation controls for intracellular antigens or antigens stained with RPE, PE-tandem, or Qdot antibody conjugates.
-  ![alt text](clickit_table.png)
+  ![alt text](/images/clickit_table.png)
 1. Remove the blocking buffer.
 2. OPTIONAL: Wash each sample *twice* with 1 mL of PBS. Remove the wash solution.
 3. Add 0.5 mL of Click-iT reaction cocktail to each tube. place on rocker
