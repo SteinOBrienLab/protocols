@@ -1,13 +1,13 @@
 ---
 title: f-ara-EdU Pulse Labeling Ceph Embryos 
 subtitle: Pulse labeling of cephalopod embryos with less-toxic f-ara-EdU
-date: Jun 21, 2024
+date: Jun 16, 2024
 Author: Loyal A. Goff
 bibliography: [references.bib]
 ---
 
 <link href="/styles.css" rel="stylesheet">
-<span class="note">Updated:</span> Jun 16, 2024
+<span class="note">Updated:</span> Jun 21, 2024
 
 Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermofisher.com/order/catalog/product/C10340); [Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fmp10338.pdf))
 
@@ -148,7 +148,7 @@ Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermof
 -  A few suggestions for optimizing:
   - Can we reduce the amount of fluorescent dye?
   - Longer washes after Click (trying ON soak in PBS currently)
-  - Wash in high DMSO (<=50% w/v) to remove unbound dye?
+  - Wash in high DMSO (≤50% w/v) to remove unbound dye?
   - 5% Urea wash to disrupt hydrophobic interactions with yolk?
 - Can likely scale down the Click Rxn to 250µl in 2mL tubes.
 -
