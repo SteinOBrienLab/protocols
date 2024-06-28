@@ -28,9 +28,12 @@ Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermof
   - [2. Fixation \& Permeabilization](#2-fixation--permeabilization)
   - [3. Blocking](#3-blocking)
   - [4. Click-iT f-ara-EdU Fluorescent Labeling and Detection](#4-click-it-f-ara-edu-fluorescent-labeling-and-detection)
+    - [For 250µl reactions:](#for-250µl-reactions)
   - [5. Staining DNA](#5-staining-dna)
   - [6. Mounting and Imaging](#6-mounting-and-imaging)
 - [Notes/Ideas for Future Tweaking:](#notesideas-for-future-tweaking)
+- [Experiments](#experiments)
+  - [F-ara-EdU short chase](#f-ara-edu-short-chase)
 
 ## Setup
 
@@ -126,7 +129,18 @@ Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermof
  - Scale up the mixture for the number of samples to be treated and add 500 μl to each tube. 
  - It is important to use the cocktail within 15 min of preparation. 
  - It is good practice to include a control sample of cells not exposed to EdU. In addition, these cells are needed for single staining compensation controls for intracellular antigens or antigens stained with RPE, PE-tandem, or Qdot antibody conjugates.
-  ![alt text](/images/clickit_table.png)
+  ![alt text](clickit_table.png)
+  
+  #### For 250µl reactions:
+
+  | Reaction Components / Reaction| 1| 2 | 4 | 5 | 10 | 25 | 50|
+  |---|---|---|---|---|---|---|---|
+  | 1x Click-iT reaction buffer | 215 µl | 430 µl | 900 µl | 1.1 ml | 2.15 ml | 5.35 ml | 10.7 ml |
+  | CuSO4 (Component E) | 10 µl | 20 µl | 40 µl | 50 µl | 100 µl | 250 µl | 500 µl |
+  | Fluorescent azide (Component B) | 0.6 µl | 1.25 µl | 2.5 µl | 3 µl | 6.25 µl | 15.5 µl | 31 µl |
+  | 1x reaction buffer additive (Component F) | 25 µl | 50 µl | 100 µl | 125 µl | 250 µl | 625 µl | 1.25 ml |
+  | Total volume | 250 µl | 500 µl | 1 ml | 1.25 ml | 2.5 ml | 6.25 ml | 12.5 ml |
+
 1. Remove the blocking buffer.
 2. OPTIONAL: Wash each sample *twice* with 1 mL of PBS. Remove the wash solution.
 3. Add 0.5 mL of Click-iT reaction cocktail to each tube. place on rocker
@@ -153,5 +167,19 @@ Adapted from the Click-iT EdU Imaging Kit protocol ([C10340](https://www.thermof
 - Can likely scale down the Click Rxn to 250µl in 2mL tubes.
 -
 
+## Experiments
+
+### F-ara-EdU short chase
+- Pulse embryos for 1 hr with 50µM F-ara-Edu
+  - ± chorion
+  - 5mL FNSW required per dish
+    - 12.5µl 20mM F-ara-EdU per 5mL FNSW
+- change back into FNSF + 1% Pen/Strep after pulse
+  - Reserve some 0hr chase embryos for comparison
+- Collect after:
+  - 4h
+  - 8h
+  - 12h
+  - 24h
 
 
