@@ -182,7 +182,8 @@ Remove and discard the supernatant.
 
 1. Add 1 μl of protease to each well.
 
-> <span class="critical">CRITICAL:</span> This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
+> [!WARNING]
+> This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
 
 2. Incubate at 37°C for 1 h and heat-inactivate the protease at 75°C for 20 min in a PCR machine (85°C heated lid).
 
