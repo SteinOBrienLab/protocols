@@ -26,9 +26,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: Better-Papers/sciblog
           ref: main
@@ -43,24 +43,24 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          echo "manager=npm" >> $GITHUB_OUTPUT
+          echo "manager=ppm" >> $GITHUB_OUTPUT
           echo "command=ci" >> $GITHUB_OUTPUT
           echo "runner=npx --no-install" >> $GITHUB_OUTPUT
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: lts/*
-          cache: "npm"
-          cache-dependency-path: "actions/sciblog/package-lock.json"
+          node-version: 20
+          cache: "pnpm"
+          cache-dependency-path: "actions/sciblog/pnpm-lock.yaml"
 
       - name: Install dependencies
         run: |
           cd actions/sciblog
-          npm ci
+          pnpm i
           npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: actions/sciblog/build
 
@@ -74,4 +74,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
