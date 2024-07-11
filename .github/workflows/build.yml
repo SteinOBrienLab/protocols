@@ -43,7 +43,7 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          echo "manager=ppm" >> $GITHUB_OUTPUT
+          echo "manager=pnpm" >> $GITHUB_OUTPUT
           echo "command=ci" >> $GITHUB_OUTPUT
           echo "runner=npx --no-install" >> $GITHUB_OUTPUT
 
