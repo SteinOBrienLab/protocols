@@ -48,6 +48,9 @@ jobs:
           echo "command=ci" >> $GITHUB_OUTPUT
           echo "runner=npx --no-install" >> $GITHUB_OUTPUT
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
