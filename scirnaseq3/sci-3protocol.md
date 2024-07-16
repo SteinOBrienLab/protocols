@@ -134,10 +134,10 @@ Remove and discard the supernatant.
 | Ligation mix  | 1 well | 100 wells |
 | ------------- | ------ | --------- |
 | 10x T4 buffer | 1.0 μl | 100 μl    |
-| 50% PEG       | 1.5 μl | 150 μl    |
+| 50% 1,2-Propanediol  | 2.4 μl | 240 μl    |
 | 20 mg/ml BSA  | 0.5 μl |  50 μl    |
 | T4 ligase     | 0.2 μl |  20 μl    |
-| Water         | 4.8 μl | 480 μl    |
+| Water         | 4.8 μl | 390 μl    |
 
 3. Resuspend nuclei in the ligation mix at 4°C
 4. Distribute 8 μl to each well of a new plate on ice.
