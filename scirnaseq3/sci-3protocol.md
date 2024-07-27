@@ -153,13 +153,14 @@ Remove and discard the supernatant.
 
 <span class="timing">Timing: 1 h</span>
 
-<span class="critical">CRITICAL:</span>  In the final plate, you will want ~1,000 nuclei/well. You should have enough nuclei to freeze multiple plates if you like.
+> [!IMPORTANT]  
+> Always make extra strips to test amplification conditions.
 
 1. Spin down and resuspend in PBS with 0.5% DNase-free BSA w/ 1:1000 RNaseIn and 0.1 μg/ml DAPI for sorting. **Do not use SPBSTM**, the nozzle will leak due to the presence of Triton.
 2. Sort nuclei into a 1.5 ml tube coated with 100 μl SPBSTM.
-3. Centrifuge at **1,000 g** for 3 min at 4°C. Resuspend in 1× second-strand buffer targeting 5 μl/well. Base is 1,000 cells/well with 1 ligation plate, increase the concentration as needed.
+3. Centrifuge at **1,000 g** for 3 min at 4°C. Resuspend in 1× second-strand buffer + 0.1% Triton X-100 to prevent clumping, targeting 4 μl/well. Base is 1,000 cells/well with 1 ligation plate, increase the concentration as needed.
 4. If proceeding, add the enzyme mix. We usually sort an extra plate with a few extra strip of tubes for diagnostics.
-5. Cover with foil seals and freeze plates at -80°C or proceed with second-strand synthesis.
+5. Cover with seals and freeze plates at -80°C or proceed with second-strand synthesis.
 
 <span class="pause">PAUSE POINT</span> Plates may be kept frozen at -80°C for &le;6 months.
 
@@ -184,7 +185,8 @@ Remove and discard the supernatant.
   _The total volume per well is now 5 μl._
 4. Incubate for 2.5 h at 16°C in a PCR machine (no heated lid).
 
-> <span class="pause">PAUSE POINT</span> Keep the plate at 4°C for &le;24 h.
+> [!NOTE]  
+> PAUSE POINT</span> Keep the plate at 4°C for &le;24 h.
 
 ## Protease Digestion
 
@@ -199,9 +201,10 @@ Remove and discard the supernatant.
 > [!WARNING]
 > This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
 
-2. Incubate at 37°C for 1 h and heat-inactivate the protease at 75°C for 20 min in a PCR machine (85°C heated lid).
+2. Incubate at 37°C for 1 h and heat-inactivate the protease at 75°C for 20 min in a PCR machine (80°C heated lid).
 
-> <span class="critical">CRITICAL:</span> Do not lower this temperature and do not shorten this time. Qiagen lists different conditions for heat-inactivating their protease, but it is not sufficient. Put the plate on ice after inactivating.
+> [!CAUTION]
+> Do not lower this temperature and do not shorten this time. Qiagen lists different conditions for heat-inactivating their protease, but it is not sufficient. Put the plate on ice after inactivating.
 
 <span class="pause">PAUSE POINT</span> Store the plate at 4°C for &le;1 week.
 
@@ -219,9 +222,9 @@ Remove and discard the supernatant.
    | --------------------------------- | ----- | ------ |
    | 2x Tagment DNA buffer (μl)        |  2.5  |  250   |
    | Nuclease-free H<sub>2</sub>O (μl) |  2.5  |  250   |
-   | N7-loaded Tn5 (μl)                | 0.25  |   25   |
+   | N7-loaded Tn5 (μl)                | 0.125 |  12.5  |
 
-2. On ice, add 5 μl of tagmentation mix to each well.
+2. To an 8-strip tube, add 62 μl to each well. On ice, dispense 5 μl to each well. 
    The total volume per well is now ~10-11 μl.
 3. Incubate for 5 min at 55°C in a PCR machine, heat-inactivate the transposase at 80°C for 5 min (85°C heated lid) and ramp down to 4°C.
 4. | Step | Temperature                 | Time  |
@@ -232,19 +235,22 @@ Remove and discard the supernatant.
 
 ## Library Amplification
 
+> [!IMPORTANT]  
+> Perform a trial PCR run with a few extra tubes to get the appropriate number of PCR cycles.
+
 <span class="timing">Timing 1h</span>
 
-1. Prepare the primer plate 2 μl of indexed P7 primers (10 μM) to each well.
-2. Add 20 μl of 2× Takara Ex Premier PCR mix and 4 μl of nuclease-free water to each well. You can make a master mix for this.
+1. Prepare the primer plate 4 μl of indexed P7 primers (10 μM) to each well.
+2. Add 20 μl of 2× Takara Ex Premier PCR mix and 6 μl of nuclease-free water to each well. You can make a master mix for this.
    Vortex at 2,000 rpm for 10 s and spin down.
-3. Amplify in a thermocycler by using 17 cycles **withOUT** a pre-extension step in the following program:
+3. Amplify in a thermocycler by using 17-19 cycles **withOUT** a pre-extension step in the following program:
    | Step | Temperature                 | Time  |
    | ---- | --------------------------- | ----- |
    | 1    | 94°C                        | 1 min |
    | 2    | 98°C                        | 10 s  |
    | 3    | 63°C                        | 15 s  |
    | 4    | 68°C                        | 45 s  |
-   | 5    | go to Step 3, 16 more times |       |
+   | 5    | go to Step 3, 16-18 more times |       |
    | 6    | 68°C                        | 3 min |
    | 7    |  4°C                        |  ∞    |
 
@@ -255,8 +261,8 @@ Remove and discard the supernatant.
 1. Pool 5 μl of each well and do a 0.8× AMPure XP cleanup (230 μl of beads) by following the manufacturer's protocol.<br>
   _Save the remaining plate by covering with foil and storing at room temperature or at 4°C for &le;6 months, in case you need to redo cleanup or if you anticipate needing more library for a large NovaSeq run._
 2. Wash the AMPure bead pellet twice gently with 70% (vol/vol) ethanol and elute the pool in 50 μl.
-3. **Perform size selection with 0.55-0.8x SPRISelect beads or homemade beads. See 10x v3 protocol for details.**
-4. Run the library on NextSeq (or NovaSeq depending on the final cell numbers or sequencing depth desired) by using standard primers. (34x10x10xremaining)
+3. **Perform size selection with 0.55-0.8x SPRISelect beads or homemade beads. See 10x v3 protocol for details. Or gel extraction for maximum recovery**
+4. Run the library on NextSeq (or NovaSeq depending on the final cell numbers or sequencing depth desired) by using standard primers. (36x10x10xremaining)
 
 ## References
 
