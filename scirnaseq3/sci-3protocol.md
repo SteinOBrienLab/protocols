@@ -64,14 +64,13 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 <span class="timing">Timing: 1 h</span>
 
 1. After sonification, centrifuge sample.
-2. Aspirate sample to nuclei pellet and add <50μl 0.3 M SPBSTM. Place sample in a PCR tube.
+2. Aspirate sample to nuclei pellet and add 50 μl SPBSTM. Place sample in a PCR tube.
 3. Add 1:40 SAP enzyme.
-4. Incubate sample at 30C for 1 hr.
-5. Stop incubation, and add 10 mM EDTA. Mix. 
+4. Incubate sample at 30C for 30 min.
+5. Stop incubation, add 50 μl SPBSTM + 30 mM EDTA. Mix. 
 6. Incubate the sample at 65°C for 5 minutes.
-7. Create an equal amount of SPBSTM and 1 M MgCl.
-8. Add MgCl.
-9. Spin down.
+8. Add 3 μl of 1M MgCl2.
+9. Wash twice using a swinging bucket centrifuge.
 
 ## Reverse Transcription
 
