@@ -185,7 +185,7 @@ Remove and discard the supernatant.
 4. Incubate for 2.5 h at 16°C in a PCR machine (no heated lid).
 
 > [!NOTE]  
-> PAUSE POINT</span> Keep the plate at 4°C for &le;24 h.
+> **PAUSE POINT** Keep the plate at 4°C for &le;24 h.
 
 ## Protease Digestion
 
