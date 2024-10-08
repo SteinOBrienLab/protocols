@@ -19,7 +19,7 @@ bibliography: [references.bib]
 | Sea water | 100mL | - |
 | **Total** || **100mL** |
 
-#### Ca-Mg2 Free Artificial Seawater (ASW)
+### Ca-Mg2 Free Artificial Seawater (ASW)
 |Reagent	| Quantity (for 500 mL)	| Final concentration
 |------------|---------------------|---------------------|
 |NaCl      | 13.1g    | 450 mM |
@@ -35,4 +35,20 @@ bibliography: [references.bib]
 - pH 6.9-7.4
 
 ### Artificial seawater (ASW)
+
+## Clearing
+
+### Detergent Mix (1 L) _(from Jenny McCarthy)_
+|Reagent	| Quantity (for 1L)	| Final concentration | Notes
+|------------|---------------------|---------------------|----|
+| 10% SDS | 100mL | 1% | (may be filtered) |
+| Deoxycholate | 5g | 0.5% | (wear a mask when handling the powder)
+| 1 M Tris-HCl (pH 8.0) | 50mL |50 mM Tris-HCl (pH 7.5) | |
+|0.5M EDTA (pH 8.0)| 2 mL | 1 mM EDTA (pH 8.0) | |
+|5M NaCl | 30 mL | 150 mM NaCl | |
+
+### Clearing Solution-1.1
+- 8 to 10% (v/v) THEED (Sigma-Aldrich, 87600-100ML)
+- 5% (v/v) Triton X-100 (Roth, 3051.2)
+- 5% (w/v) urea (Roth, X999.2) in dH2O
 
