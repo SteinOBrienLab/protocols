@@ -36,6 +36,12 @@ bibliography: [references.bib]
 
 ### Artificial seawater (ASW)
 
+### High salt PBS (for better DAPI penetration)
+|Reagent	| Quantity (for 500 mL)	| Final concentration
+|------------|---------------------|---------------------|
+|NaCl | 1.06g | 500 mM (363mM added to 137mM in std PBS)|
+|PBS 1x | to 50 mL||
+
 ## Clearing
 
 ### Detergent Mix (1 L) _(from Jenny McCarthy)_
